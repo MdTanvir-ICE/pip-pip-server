@@ -8,7 +8,7 @@ const mongoose = require('mongoose');
 const {MONGOURL} =require('./key');
 require('dotenv').config();
 
-console.log(process.env.DB_USER);
+
 const PORT = process.env.PORT || 4000;
 
 mongoose.connect(MONGOURL,{
